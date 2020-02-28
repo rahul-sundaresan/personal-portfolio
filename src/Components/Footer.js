@@ -19,7 +19,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2017 Tim Baker</li>
+              <li>Thanks to Tim Baker for their <a title="React JS Resume Web App Template" href="https://github.com/tbakerx/react-resume-template">theme</a></li>
               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
            </ul>
 
