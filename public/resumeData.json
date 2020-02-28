@@ -48,25 +48,43 @@
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Pat & Venky - Chennai, India",
+        "title":"Intern",
+        "years":"​November 2018 - February 2019",
+        "description":"Worked on Digital Mobile Radio (DMR), programming and commissioning two way radios for wireless communication of Tamil Nadu State Government ● Trained personnel in using the DMR and troubleshooting issues that may arise when using the equipment"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"L&T, Smart World & Communication - Chennai, India",
+        "title":"Intern",
+        "years":"May 2018 - June 2018",
+        "description":"Analyzed an IMS based communication solution for the Indian Army and for deploying a Unified Network Management System to manage the network ● Programmed a tool using python to detect if a supplied video was out of focus or blurry which can be deployed in CCTV monitoring software to detect tampering with cameras"
+      },
+      {
+        "company":"Capgemini Technology Services - Bangalore, India",
+        "title":"Software Development Intern",
+        "years":"November 2017 - December 2017",
+        "description":"Augmented an in-house software with rundeck functionality using the Rundeck API on PHP"
+      },
+      {
+        "company":"Pat & Venky - Chennai, India",
+        "title":"Intern",
+        "years":"June 2017",
+        "description":"Responsible for the planning and upgrading  the office network infrastructure and ensuring protection against threats, both internal and external"
+      },
+      {
+        "company":"Perpetuuiti Technosoft - Chennai, India",
+        "title":"Software Development Intern",
+        "years":"December 2016",
+        "description":"Built an application using the Eldos Callback Filter to track changes to files in an operating system ● Created an application to rollback changes occuring in the filesystem"
       }
     ],
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
+        "level":"40%"
       },
       {
-        "name":"Python",
+        "name":"Python 3",
         "level":"70%"
       },
       {
