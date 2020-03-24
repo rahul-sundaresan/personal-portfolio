@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
@@ -7,53 +7,29 @@ import Resume from './Components/Resume';
 //import Testimonials from './Components/Testimonials';
 //import Portfolio from './Components/Portfolio';
 
-class App extends Component {
+function App(props) {
 
-  constructor(props){
-    super(props);
-    this.state = {
-      foo: 'bar',
-      resumeData: {}
-    };
+  const [resumeData, setResumeData] = useState({});
 
-  }
-
-  getResumeData(){
-    
+  useEffect(() => {
     fetch("/resumeData.json")
       .then(res => res.json())
-      .then(
-        (result) => {
-          this.setState({
-              resumeData: result
-          });
-        },
-        (error) => {
-            console.log(error);
-            alert(error);
-          }
-      )
+      .then(result => setResumeData(result))
+      .catch(err => console.log(err))
+  },[])
 
-  }
-
-  componentDidMount(){
-    this.getResumeData();
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-      {/* <Portfolio data={this.state.resumeData.portfolio}/> 
-        <Testimonials data={this.state.resumeData.testimonials}/>
-        <Contact data={this.state.resumeData.main}/>
-      */}
-        <Footer data={this.state.resumeData.main}/>
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <Header data={resumeData.main}/>
+      <About data={resumeData.main}/>
+      <Resume data={resumeData.resume}/>
+    {/* <Portfolio data={this.state.resumeData.portfolio}/> 
+      <Testimonials data={this.state.resumeData.testimonials}/>
+      <Contact data={this.state.resumeData.main}/>
+    */}
+      <Footer data={resumeData.main}/>
+    </div>
+  );
 }
 
 export default App;
