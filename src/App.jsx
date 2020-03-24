@@ -3,7 +3,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-//import Contact from './Components/Contact';
+import Contact from './Components/Contact';
 //import Testimonials from './Components/Testimonials';
 //import Portfolio from './Components/Portfolio';
 
@@ -25,8 +25,9 @@ function App(props) {
       <Resume data={resumeData.resume}/>
     {/* <Portfolio data={this.state.resumeData.portfolio}/> 
       <Testimonials data={this.state.resumeData.testimonials}/>
-      <Contact data={this.state.resumeData.main}/>
+      
     */}
+      <Contact/>
       <Footer data={resumeData.main}/>
     </div>
   );
