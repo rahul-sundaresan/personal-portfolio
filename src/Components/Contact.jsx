@@ -2,13 +2,7 @@ import React from 'react';
 
 export default function Contact(params) {
    return (
-      <>
-      <form name="contactForm" netlify netlify-honeypot="bot-field" hidden>
-         <input type="text" name="contactName" />
-         <input type="email" name="contactEmail" />         
-         <input type="text" name="contactSubject"/>
-         <textarea name="contactMessage" />
-      </form>
+      
       <section id="contact">
          <div className="row section-head">
                <div className="two columns header-col">
@@ -55,6 +49,5 @@ export default function Contact(params) {
             </div>
          </div>
       </section>
-      </>
     );
 }
