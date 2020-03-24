@@ -21,6 +21,7 @@ class Footer extends Component {
            <ul className="copyright">
               <li>Thanks to Tim Baker for their <a title="React JS Resume Web App Template" href="https://github.com/tbakerx/react-resume-template">theme</a></li>
               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+              <li>Image by <a href="https://pixabay.com/users/rauschenberger-4614580/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3806668">RENE RAUSCHENBERGER</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3806668">Pixabay</a></li>
            </ul>
 
         </div>
