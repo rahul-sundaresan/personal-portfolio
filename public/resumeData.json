@@ -1,0 +1,150 @@
+{
+  "main": {
+    "name":"Rahul Sundaresan",
+    "occupation":"aspiring Network Engineer",
+    "description":"",
+    "image":"profilepic.jpg",
+    "bio":"Aspiring Network Engineer and IPv6 enthusiast | Actively looking for summer 2020 internship opportunities",
+    "contactmessage":"Drop me a message!",
+    "email": "rsundar3@uncc.edu",
+    "phone": "555-555-5555",
+    "address":{
+      "street":"",
+      "city":"Charlotte",
+      "state":"",
+      "zip": ""
+    },
+    "website": "http://a.totallysuspicious.website",
+    "resumedownload":"https://docs.google.com/document/d/18fZ0rdVJSR7fhaUrfaR6w3C8Xk7gkfNikNNoPUpAl7M/export?format=pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/rahul-sundaresan/",
+        "className":"fa fa-linkedin"
+      },
+      
+      {
+        "name":"github",
+        "url":"https://github.com/rahul-sundaresan",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Check out my skills!",
+    "education":[
+      {
+        "school":"University of North Carolina at Charlotte",
+        "degree":"Masters in Computer Science",
+        "graduated":"May 2021",
+        "description":"Found my love for React, Android development and Software Defined Networks"
+      },
+      {
+        "school":"SASTRA",
+        "degree":"Bachelors in Computer Science & Engineering",
+        "graduated":"May 2019",
+        "description":"Became passionate about computer networks and racked up a few internships under my belt"
+      }
+    ],
+    "work":[
+      {
+        "company":"Pat & Venky - Chennai, India",
+        "title":"Intern",
+        "years":"​November 2018 - February 2019",
+        "description":"Worked on Digital Mobile Radio (DMR), programming and commissioning two way radios for wireless communication of Tamil Nadu State Government ● Trained personnel in using the DMR and troubleshooting issues that may arise when using the equipment"
+      },
+      {
+        "company":"L&T, Smart World & Communication - Chennai, India",
+        "title":"Intern",
+        "years":"May 2018 - June 2018",
+        "description":"Analyzed an IMS based communication solution for the Indian Army and for deploying a Unified Network Management System to manage the network ● Programmed a tool using python to detect if a supplied video was out of focus or blurry which can be deployed in CCTV monitoring software to detect tampering with cameras"
+      },
+      {
+        "company":"Capgemini Technology Services - Bangalore, India",
+        "title":"Software Development Intern",
+        "years":"November 2017 - December 2017",
+        "description":"Augmented an in-house software with rundeck functionality using the Rundeck API on PHP"
+      },
+      {
+        "company":"Pat & Venky - Chennai, India",
+        "title":"Intern",
+        "years":"June 2017",
+        "description":"Responsible for the planning and upgrading  the office network infrastructure and ensuring protection against threats, both internal and external"
+      },
+      {
+        "company":"Perpetuuiti Technosoft - Chennai, India",
+        "title":"Software Development Intern",
+        "years":"December 2016",
+        "description":"Built an application using the Eldos Callback Filter to track changes to files in an operating system ● Created an application to rollback changes occuring in the filesystem"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"40%"
+      },
+      {
+        "name":"Python 3",
+        "level":"70%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"25%"
+      },
+      {
+        "name":"Android Development",
+        "level":"50%"
+      },
+      {
+        "name":"PHP",
+        "level":"25%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
