@@ -113,3 +113,9 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
+public/index.html
+public/profilepic.jpg
+public/page-data/404/page-data.json
+public/page-data/404.html/page-data.json
+public/page-data/dev-404-page/page-data.json
+public/page-data/index/page-data.json
