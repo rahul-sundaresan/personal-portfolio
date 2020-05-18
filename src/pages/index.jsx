@@ -19,9 +19,8 @@ export default function App(props) {
       <Resume data={resumeData.resume}/>
     {/* <Portfolio data={this.state.resumeData.portfolio}/> 
       <Testimonials data={this.state.resumeData.testimonials}/>
-      
-    */}
       <Contact/>
+    */}
       <Footer data={resumeData.main}/>
     </>
   );
