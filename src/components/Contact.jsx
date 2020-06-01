@@ -10,27 +10,28 @@ export default function Contact() {
             </div>
             <div className="row">
                 <div className="eight columns">
-                    <form method="POST" name="contact" netlify>
+                    <form method="POST" name="contact" >
                     <fieldset>
                         <div>
-                        <label htmlFor="contactName">Name</label>
-                        <input type="text" size="35" id="contactName" name="contactName" />
+                            <label htmlFor="contactName">Name</label>
+                            <input type="text" size="35" id="contactName" name="contactName" />
                         </div>
                         <div>
-                        <label htmlFor="contactEmail">Email</label>
-                        <input type="email"  size="35" id="contactEmail" name="contactEmail" />
+                            <label htmlFor="contactEmail">Email</label>
+                            <input type="email"  size="35" id="contactEmail" name="contactEmail" />
                         </div>
                         <div>
-                        <label htmlFor="contactSubject">Subject</label>
+                            <label htmlFor="contactSubject">Subject</label>
+                            <input type="text"  size="35" id="contactSubject" name="contactSubject" />
                         </div>
                         <div>
-                        <label htmlFor="contactMessage">Message</label>
+                            <label htmlFor="contactMessage">Message</label>
                         </div>
                         <div>
-                        <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                          <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                         </div>
                         <div>
-                            <input type="submit" className="submit">Submit</input>
+                            <input type="submit" className="submit" value="Submit"/>
                         </div>
                     </fieldset>
                     </form>
