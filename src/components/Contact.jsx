@@ -10,8 +10,9 @@ export default function Contact() {
             </div>
             <div className="row">
                 <div className="eight columns">
-                    <form method="POST" name="contact" >
-                    <fieldset>
+                    <form method="POST" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="contact" />
+                        <fieldset>
                         <div>
                             <label htmlFor="contactName">Name</label>
                             <input type="text" size="35" id="contactName" name="contactName" />
