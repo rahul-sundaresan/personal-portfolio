@@ -2,7 +2,6 @@ import React from 'react';
 
 export default function Contact() {
    return (
-      
       <section id="contact">
          <div className="row section-head">
                <div className="two columns header-col">
@@ -11,29 +10,27 @@ export default function Contact() {
             </div>
          <div className="row">
                <div className="eight columns">
-                  <form method="post" id="contactForm" name="contactForm" data-netlify="true">
+                  <form method="POST" name="contact" data-netlify="true">
                   <fieldset>
                      <div>
                         <label htmlFor="contactName">Name</label>
-                        <input type="text" defaultValue="" size="35" id="contactName" name="contactName" />
+                        <input type="text" size="35" id="contactName" name="contactName" />
                      </div>
-
                      <div>
                         <label htmlFor="contactEmail">Email</label>
-                        <input type="email" defaultValue="" size="35" id="contactEmail" name="contactEmail" />
+                        <input type="email"  size="35" id="contactEmail" name="contactEmail" />
                      </div>
-
                      <div>
                         <label htmlFor="contactSubject">Subject</label>
-                        <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject"/>
-                     </div>
-
-                     <div>
-                        <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                        <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"/>
                      </div>
                      <div>
-                        <button type="submit" className="submit">Submit</button>
+                        <label htmlFor="contactMessage">Message</label>
+                      </div>
+                      <div>
+                        <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     </div>
+                     <div>
+                        <input type="submit" className="submit">Submit</input>
                      </div>
                   </fieldset>
                   </form>
