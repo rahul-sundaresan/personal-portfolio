@@ -1,24 +1,18 @@
 import React from 'react';
+import profilePic from "../assets/img/profilepic.jpg";
 
 export default function About ({data})
- 
 {
-
-
-   if(data) {
-      var name = data.name;
-      var profilepic= "images/"+data.image;
-      var bio = data.bio;
-      var email = data.email;
-      
-      var resumeDownload = data.resumedownload;
-   }
+   const resumeDownload = data.resumedownload;
+   const email = data.email;
+   const bio = data.bio;
+   const name = data.name;
 
    return (
       <section id="about">
          <div className="row">
             <div className="three columns">
-               <img className="profile-pic"  src="profilepic.jpg" alt="Rahul Sundaresan" />
+               <img className="profile-pic"  src={profilePic} alt="Rahul Sundaresan" />
             </div>
             <div className="nine columns main-col">
                <h2>About Me</h2>
@@ -33,7 +27,7 @@ export default function About ({data})
                   </div>
                   <div className="columns download">
                      <p>
-                        <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                        <a href={resumeDownload} className="button"><i className="fa fa-download"/>Download Resume</a>
                      </p>
                   </div>
                </div>
@@ -41,5 +35,4 @@ export default function About ({data})
          </div>
       </section>
    );
-  
 }
