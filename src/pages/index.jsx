@@ -12,16 +12,17 @@ export default function App(props) {
 
   
 
-  return (
-    <>
-      <Header data={resumeData.main}/>
-      <About data={resumeData.main}/>
-      <Resume data={resumeData.resume}/>
-    {/* <Portfolio data={this.state.resumeData.portfolio}/> 
-      <Testimonials data={this.state.resumeData.testimonials}/>
-      <Contact/>
-    */}
-      <Footer data={resumeData.main}/>
-    </>
-  );
+    return (
+        <>
+            <Header data={resumeData.main}/>
+            <About data={resumeData.main}/>
+            <Resume data={resumeData.resume}/>
+            {/* <Portfolio data={this.state.resumeData.portfolio}/>
+              <Testimonials data={this.state.resumeData.testimonials}/>
+
+            */}
+            <Contact/>
+            <Footer data={resumeData.main}/>
+        </>
+    );
 }
