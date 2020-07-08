@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+.title {
+    color: white;
+    text-transform: uppercase;
+    font-size: 500%;
+    text-align: center;
+
+}
+
+.missionStatement {
+    color: white;
+    text-align: justify;
+    font-size: 200%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+

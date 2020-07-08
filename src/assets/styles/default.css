@@ -52,7 +52,6 @@ time, mark, audio, video {
    padding: 0;
    border: 0;
    outline: 0;
-   font-size: 100%;
    vertical-align: baseline;
    background: transparent;
 }
@@ -140,17 +139,7 @@ html {
    -webkit-font-smoothing: antialiased;
 }
 
-body {
-   background: #fff;
-   font-family: 'opensans-regular', sans-serif;
-   font-weight: normal;
-   font-size: 15px;
-   line-height: 30px;
-	color: #838C95;
 
-   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-	-webkit-text-size-adjust: 100%;
-}
 
 /*  2. Typography
        Vertical rhythm with leading derived from 6
@@ -162,9 +151,7 @@ h1, h2, h3, h4, h5, h6 {
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
 h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
-h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }

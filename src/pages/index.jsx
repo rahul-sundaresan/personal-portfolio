@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from '../components/Header';
+import Header from '../components/Header/Header';
 import Footer from '../components/Footer';
 import Resume from '../components/Resume/Resume';
 import Contact from '../components/Contact';
 import resumeData from '../../resumeData.json'
 import Navbar from "../components/Navbar/Navbar";
-import "../assets/styles/index.css"
 import YAMLData from "../../content/resume-data.yaml"
 //import Testimonials from '../components/Testimonials';
 import Portfolio from '../components/Portfolio';
