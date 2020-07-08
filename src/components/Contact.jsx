@@ -3,38 +3,29 @@ import React from 'react';
 export default function Contact() {
     return (
         <section id="contact">
-            <div className="row section-head">
-                <div className="two columns header-col">
-                <h1><span>Get In Touch.</span></h1>
-                </div>
+            <div className="row" >
+                <h1 style={{textAlign:"center"}}>Get In Touch</h1>
             </div>
             <div className="row">
                 <div className="eight columns">
                     <form method="POST" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
                         <input type="hidden" name="form-name" value="contact" />
                         <fieldset>
-                        <div>
                             <label htmlFor="contactName">Name</label>
                             <input type="text" size="35" id="contactName" name="contactName" />
-                        </div>
-                        <div>
+
                             <label htmlFor="contactEmail">Email</label>
                             <input type="email"  size="35" id="contactEmail" name="contactEmail" />
-                        </div>
-                        <div>
+
                             <label htmlFor="contactSubject">Subject</label>
                             <input type="text"  size="35" id="contactSubject" name="contactSubject" />
-                        </div>
-                        <div>
+
                             <label htmlFor="contactMessage">Message</label>
-                        </div>
-                        <div>
-                          <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                        </div>
-                        <div>
-                            <input type="submit" className="submit" value="Submit"/>
-                        </div>
-                    </fieldset>
+                            <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"/>
+
+                            <label htmlFor="submit">Ready?</label>
+                            <input type="submit" id="submit" className="submit" value="Submit"/>
+                     </fieldset>
                     </form>
                 </div>
             </div>

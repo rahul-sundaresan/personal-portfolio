@@ -11,7 +11,12 @@
     "email": "anubhav.srivastava00@gmail.com"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "gatsby": "^2.20.2",
+    "gatsby-plugin-manifest": "^2.4.14",
+    "gatsby-transformer-yaml": "^2.4.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -25,8 +30,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.0",
+    "react-router-dom": "^5.2.0",
     "rimraf": "^3.0.2"
   },
   "keywords": [

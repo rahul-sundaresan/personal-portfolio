@@ -1,53 +1,35 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone, faEnvelopeOpen, faDownload, faFilePdf } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub }from '@fortawesome/free-brands-svg-icons'
 
-export default function Header({data}) {
-  
 
-   if(data) {
-      var name = data.name;
-      var occupation= data.occupation;
-      var description= data.description;
-      var city= data.address.city;
-      var networks= data.social.map(function(network){
-         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
-   }
+export default function Header(props) {
 
    return (
       <header id="home" className="header">
-         <nav id="nav-wrap">
-
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
-            <ul id="nav" className="nav">
-               <li><a className="smoothscroll" href="#home">Home</a></li>
-               <li><a className="smoothscroll" href="#about">About</a></li>
-               <li><a className="smoothscroll" href="#resume">Resume</a></li>
-               <li><a className="smoothscroll" href="#contact">Contact</a></li>
-
-            {/*   
-               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            */}
-            </ul>
-
-         </nav>
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">I'm {name}.</h1>
-               <h3>I'm a {city} based <span>{occupation}</span></h3>
-               <hr />
-               <ul className="social">
-                  {networks}
-               </ul>
+               <h1 className="responsive-headline">I'm {props.name}</h1>
+               <h3><span>{props.tagline}</span></h3>
+               <hr/>
+               <div className="social">
+                  <ul>
+                     <li><a href={"mailto:" + props.personalInfo.email}><FontAwesomeIcon icon={faEnvelopeOpen}/></a></li>
+                     <li><a href={"tel:"+props.personalInfo.phone}><FontAwesomeIcon icon={faPhone}/></a></li>
+                     <li><a href={props.personalInfo.linkedin}><FontAwesomeIcon icon={faLinkedin}/></a></li>
+                     <li><a href={props.personalInfo.github}><FontAwesomeIcon icon={faGithub}/></a></li>
+                  </ul>
+               </div>
+               <a href="/resume.pdf" target="_blank" className="button"><FontAwesomeIcon icon={faFilePdf}/> View PDF Resume</a>
+
+
+               <p className="scrolldown">
+                  <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+               </p>
             </div>
          </div>
-
-         <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-         </p>
 
       </header>
    );

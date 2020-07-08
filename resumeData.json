@@ -4,7 +4,7 @@
     "occupation":"aspiring Network Engineer",
     "description":"",
     "image":"profilepic.jpg",
-    "bio":"Aspiring Network Engineer and IPv6 enthusiast | Actively looking for summer 2020 internship opportunities",
+    "bio":"I contribute to open source projects, mainly in the field of networking. My preferred programming and scripting languages are python and reactjs with gatsby",
     "contactmessage":"Drop me a message!",
     "email": "rahul@rsun.dev",
     "phone": "555-555-5555",
@@ -14,7 +14,7 @@
       "state":"",
       "zip": ""
     },
-    "website": "http://a.totallysuspicious.website",
+    "website": "http://rsun.dev",
     "resumedownload":"https://docs.google.com/document/d/18fZ0rdVJSR7fhaUrfaR6w3C8Xk7gkfNikNNoPUpAl7M/export?format=pdf",
     "social":[
       {
@@ -22,7 +22,7 @@
         "url":"https://www.linkedin.com/in/rahul-sundaresan/",
         "className":"fa fa-linkedin"
       },
-      
+
       {
         "name":"github",
         "url":"https://github.com/rahul-sundaresan",
