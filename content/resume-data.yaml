@@ -1,0 +1,110 @@
+name: Rahul Sundaresan
+tagline: I am a graduate student currently pursuing a MS degree in Computer Science at UNC Charlotte. My interests lie
+  in computer networks and web development with React. I am looking for remote software development opportunities for Fall 2020
+personalinfo:
+  email: rahul@rsun.dev
+  phone: (980)-255-0390
+  homepage: https://rsun.dev
+  linkedin: https://www.linkedin.com/in/rahul-sundaresan/
+  github: https://github.com/rahul-sundaresan
+
+experience:
+  - position: Research Assistant
+    institution: University of Nevada at Las Vegas
+    duration: June 2020–Current
+    location: Las Vegas, Nevada
+    description:
+      - Collaborated with Dr. Yoohwan Kim and Dr. Ju-Yeon Jo in researching the effectiveness of Multipath TCP in improving bandwidth.
+      - Deployed network simulations to measure the throughput under varying latency and loss rate for single-path and Multipath TCP networks.
+      - Processed the output of iperf3's JSON results and graphed the data to visualize trends in throughput.
+    stack:
+      - Python
+      - Mininet
+      - Plotly
+      - pandas
+  - position: Software Development Intern
+    institution: L&T (Smart World & Communication)
+    duration: May 2018–June 2018
+    location: Chennai, India
+    description:
+      - Programmed a tool using Python and OpenCV library to classify if a supplied video was blurry to detect tampering of cameras.
+      - Summarized technical bids based on LTE based communcation solutions into concise reports which helped the company take business decisions
+    stack:
+      - Python
+      - OpenCV
+      -
+  - position: Software Development Intern
+    institution: Capgemini Technology Services (Storage and Infrastructure team)
+    duration: November 2017–December 2017
+    location: Bangalore, India
+    description:
+      - Augmented an in-house software written with PHP with the
+        ability to create and manage Rundeck jobs using the Rundeck API
+      - Implemented single sign-on between rundeck and the inhouse
+        software which allowed for a faster and more secure way of
+        signing into Rundeck
+    stack:
+      - PHP
+      - Rundeck
+  - position: Software Development Intern
+    institution: Perpetuuiti Technosoft
+    duration: November 2016–December 2016
+    location: Chennai, India
+    description:
+      - Built an application with a GUI using the Eldos Callback Filter to
+        track changes to files and rollback changes occurring in the
+        Windows filesystem using C++ which served as a backup solution
+        as a part of Perpetuuiti’s portfolio
+    stack:
+      - Windows API
+      - C++
+  - position: Network and Sysadmin Intern
+    institution: Pat & Venky
+    duration: January 2016–Current
+    location: Chennai, India
+    description:
+      - Set up a NAS along with a backup system for collaboration
+      - Deployed IPv6 for end clients along with proper firewalling
+      - Upgraded the network to use Unifi hardware and set up
+        appropriate VLANs for management, different departments and
+        the CCTV network
+      - Setup a cloud hosted Unifi controller on google cloud platform
+        (GCP) and set up appropriate firewall policies for the VM
+      - Charted a migration plan to Office 365 from on-prem hardware
+
+education:
+  - degree: M.S. Computer Science
+    gpa: "3.6/4.0"
+    institution: University of North Carolina at Charlotte
+    duration: 2019–Current
+    location: Charlotte, North Carolina
+
+  - degree: B.Tech Computer Science
+    gpa: "6.9/10.0"
+    institution: SASTRA University
+    duration: 2015–2019
+    location: Thanjavur, India
+
+
+projects:
+  - name: Portfolio
+    url: https://rsun.dev
+    description: Personal website built using Gatsby pulling data from a YAML file with continuous deployment on Netlify
+    stack:
+      - Gatsby
+      - Netlify
+skills:
+  programming:
+    - LaTeX
+    - Python 3
+    - Java (Android Development)
+    - React
+    - Gatsby
+  tools:
+    - Git
+    - REST APIs
+    - IPv6
+    - Software Defined Networks (SDN)
+    - Mininet
+    - Netlify
+
