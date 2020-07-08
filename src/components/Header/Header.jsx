@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faEnvelopeOpen, faDownload, faFilePdf } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelopeOpen,faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub }from '@fortawesome/free-brands-svg-icons'
 import headerStyle from "./header.module.css"
 export default function Header(props) {

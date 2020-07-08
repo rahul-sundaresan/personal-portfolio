@@ -1,5 +1,4 @@
 import React from "react";
-import YAMLData from "../../../content/resume-data.yaml"
 
 export default function Education(props) {
     const education = props.education.map((educationItem) => {

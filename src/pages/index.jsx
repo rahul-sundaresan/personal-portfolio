@@ -6,8 +6,6 @@ import Contact from '../components/Contact';
 import resumeData from '../../resumeData.json'
 import Navbar from "../components/Navbar/Navbar";
 import YAMLData from "../../content/resume-data.yaml"
-//import Testimonials from '../components/Testimonials';
-import Portfolio from '../components/Portfolio';
 
 export default function App() {
     return (
@@ -15,10 +13,6 @@ export default function App() {
             <Navbar/>
             <Header name={YAMLData.name} tagline={YAMLData.tagline} personalInfo={YAMLData.personalinfo}/>
             <Resume work={YAMLData.experience} skills={YAMLData.skills} education={YAMLData.education}/>
-            {/* <Portfolio data={this.state.resumeData.portfolio}/>
-              <Testimonials data={this.state.resumeData.testimonials}/>
-
-            */}
             <Contact/>
             <Footer data={resumeData.main}/>
         </>
