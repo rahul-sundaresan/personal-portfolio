@@ -19,6 +19,11 @@ jobs:
           file: "resume.pdf"
         env:
           GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
+     
+      - name: PWD and files
+        run: |
+          pwd
+          ls -l
       - uses: actions/checkout@v2
         name: Checking out the repo
       - name: Copy asset into repo
