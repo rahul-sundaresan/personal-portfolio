@@ -31,7 +31,7 @@ jobs:
       - name: Copy asset into repo
         uses: canastro/copy-file-action@master
         with:
-          source: "./resume.pdf"
+          source: $HOME/resume.pdf
           target: $GITHUB_WORKSPACE/latex-resume/static/
           flags: "-f"
       - name: Commit and Push
