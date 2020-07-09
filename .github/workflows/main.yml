@@ -22,11 +22,10 @@ jobs:
       - name: Fetch Github Release Asset
         uses: dsaltares/fetch-gh-release-asset@0.0.4
         with:
-          repo: https://github.com/rahul-sundaresan/latex-resume/
+          repo: "rahul-sundaresan/latex-resume"
           file: "resume.pdf"
         env:
           GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
-          ASSET_ID: resume.pdf
       - uses: actions/checkout@v2
         name: Checking out the repo
       - name: Copy asset into repo
