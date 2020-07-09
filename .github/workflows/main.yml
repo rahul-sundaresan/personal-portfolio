@@ -20,12 +20,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
      
-      - name: PWD and files
+      - name: PWD and files of downloaded resume
         run: |
           pwd
           ls -l
       - uses: actions/checkout@v2
         name: Checking out the repo
+      - name: PWD and files of repo
+        run: |
+          cd  $GITHUB_WORKSPACE/latex-resume/static/
+          ls -l
       - name: Copy asset into repo
         uses: canastro/copy-file-action@master
         with:
