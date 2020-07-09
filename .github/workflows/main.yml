@@ -25,7 +25,7 @@ jobs:
           repo: "https://github.com/rahul-sundaresan/latex-resume/"
           version: "latest"
           file: "resume.pdf"
-          github_token: ${{secrets.ACCESS_TOKEN}}
+          token: ${{secrets.ACCESS_TOKEN}}
       - uses: actions/checkout@v2
         name: Checking out the repo
       - name: Copy asset into repo
