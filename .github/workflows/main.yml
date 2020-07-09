@@ -25,6 +25,7 @@ jobs:
           repo: "https://github.com/rahul-sundaresan/latex-resume/"
           version: "latest"
           file: "resume.pdf"
+          github_token: ${{secrets.ACCESS_TOKEN}}
       - uses: actions/checkout@v2
         name: Checking out the repo
       - name: Copy asset into repo
@@ -42,7 +43,8 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{secrets.ACCESS_TOKEN}}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+        
 
         
     
