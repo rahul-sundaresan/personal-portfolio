@@ -28,7 +28,7 @@ jobs:
         name: Checking out the repo
       - name: PWD and files of repo
         run: |
-          cd  $GITHUB_WORKSPACE/latex-resume/static/
+          pwd
           ls -l
       - name: Copy asset into repo
         uses: canastro/copy-file-action@master
