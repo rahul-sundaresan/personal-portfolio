@@ -1,6 +1,6 @@
 
 name: Download and deploy
-on: [issues]
+on: push
   
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -12,13 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Fetch Github Release Asset
-        uses: dsaltares/fetch-gh-release-asset@0.0.4
-        with:
-          repo: "rahul-sundaresan/latex-resume"
-          file: "resume.pdf"
-        env:
-          GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
+     
      
       - name: PWD and files of downloaded resume
         run: |
@@ -30,11 +24,18 @@ jobs:
         run: |
           pwd
           ls -l
+      - name: Fetch Github Release Asset
+        uses: dsaltares/fetch-gh-release-asset@0.0.4
+        with:
+          repo: "rahul-sundaresan/latex-resume"
+          file: "resume.pdf"
+        env:
+          GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
       - name: Copy asset into repo
         uses: canastro/copy-file-action@master
         with:
           source: resume.pdf
-          target: $GITHUB_WORKSPACE/latex-resume/static/
+          target: static/
           flags: "-f"
       - name: Commit and Push
         run: |
