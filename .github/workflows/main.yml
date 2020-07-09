@@ -1,14 +1,7 @@
-# This is a basic workflow to help you get started with Actions
 
-name: Donwload and deploy
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+name: Download and deploy
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  fork
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -26,27 +19,9 @@ jobs:
           file: "resume.pdf"
         env:
           GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
-      - uses: actions/checkout@v2
-        name: Checking out the repo
-      - name: Copy asset into repo
-        uses: canastro/copy-file-action@master
-        with:
-          source: $HOME/resume.pdf
-          target: $GITHUB_WORKSPACE/latex-resume/static/
-          flags: "-f"
-      - name: Commit and Push
-    
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Add changes" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-        
-
-        
+      - name: Print the local files
+        run: ls -l
+      
     
 
 
