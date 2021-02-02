@@ -12,19 +12,19 @@ export default function Contact() {
                         <input type="hidden" name="form-name" value="contact" />
                         <fieldset>
                             <label htmlFor="contactName">Name</label>
-                            <input type="text" size="35" id="contactName" name="contactName" />
+                            <input type="text" size="35" id="contactName" name="contactName" required/>
 
                             <label htmlFor="contactEmail">Email</label>
                             <input type="email"  size="35" id="contactEmail" name="contactEmail" />
 
                             <label htmlFor="contactSubject">Subject</label>
-                            <input type="text"  size="35" id="contactSubject" name="contactSubject" />
+                            <input type="text"  size="35" id="contactSubject" name="contactSubject" required/>
 
                             <label htmlFor="contactMessage">Message</label>
-                            <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"/>
+                            <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" required/>
 
                             <label htmlFor="submit">Ready?</label>
-                            <input type="submit" id="submit" className="submit" value="Submit"/>
+                            <input type="submit" id="submit" className="submit" value="Submit" required/>
                      </fieldset>
                     </form>
                 </div>
