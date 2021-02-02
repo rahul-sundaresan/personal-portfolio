@@ -15,7 +15,6 @@ export default function Header(props) {
                     <div className="social">
                         <ul>
                             <li><a href={"mailto:" + props.personalInfo.email}><FontAwesomeIcon icon={faEnvelopeOpen}/></a></li>
-                            <li><a href={"tel:"+props.personalInfo.phone}><FontAwesomeIcon icon={faPhone}/></a></li>
                             <li><a href={props.personalInfo.linkedin}><FontAwesomeIcon icon={faLinkedin}/></a></li>
                             <li><a href={props.personalInfo.github}><FontAwesomeIcon icon={faGithub}/></a></li>
                         </ul>
