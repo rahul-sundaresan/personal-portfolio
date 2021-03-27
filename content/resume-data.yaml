@@ -11,7 +11,7 @@ personalinfo:
 experience:
   - position: Research Assistant
     institution: University of Nevada at Las Vegas
-    duration: June 2020–Current
+    duration: June 2020–August 2020
     location: Las Vegas, Nevada
     description:
       - Collaborated with Dr. Yoohwan Kim and Dr. Ju-Yeon Jo in researching the effectiveness of Multipath TCP in improving bandwidth.
@@ -60,7 +60,7 @@ experience:
       - C++
   - position: Network and Sysadmin Intern
     institution: Pat & Venky
-    duration: January 2016–Current
+    duration: January 2018–Current
     location: Chennai, India
     description:
       - Set up a NAS along with a backup system for collaboration
