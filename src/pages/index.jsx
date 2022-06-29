@@ -12,7 +12,6 @@ export default function App() {
         <>
             <Navbar/>
             <Header name={YAMLData.name} tagline={YAMLData.tagline} personalInfo={YAMLData.personalinfo}/>
-            <Resume work={YAMLData.experience} skills={YAMLData.skills} education={YAMLData.education}/>
             <Contact/>
             <Footer data={resumeData.main}/>
         </>
