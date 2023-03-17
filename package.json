@@ -16,7 +16,7 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "gatsby": "^5",
     "gatsby-plugin-manifest": "^5.1.0",
-    "gatsby-transformer-yaml": "^2.4.9",
+    "gatsby-transformer-yaml": "^5.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
